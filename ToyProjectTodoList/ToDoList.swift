@@ -8,10 +8,10 @@
 import Foundation
 
 struct ToDoList : Codable, Identifiable {
-    var id : String
+    var id : Int
     var title : String
     var description : String
-    var completed : String
+    var completed : Bool
 }
 
 
