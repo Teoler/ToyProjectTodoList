@@ -10,6 +10,7 @@ import Combine
 
 class ToDoListStore : ObservableObject {
     @Published var ToDoLists : [ToDoList]
+    
     init(ToDoLists: [ToDoList] = []) {
         self.ToDoLists = ToDoLists
     }

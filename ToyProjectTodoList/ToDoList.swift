@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ToDoList : Codable, Identifiable {
+struct ToDoList : Codable, Identifiable ,Hashable {
     var id : Int
     var title : String
     var description : String
